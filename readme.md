@@ -1,4 +1,5 @@
-# Configuration Server `http://localhost:8086/config` 
+# Configuration Server 
+ Base path `http://localhost:8086/config` 
 
 1)In which the {label} placeholder refers to a Git branch, {application} to the client’s application name and the {profile} to the client’s current active application profile.
 
@@ -16,7 +17,8 @@ http://localhost:8086/config/cloudprops-default.properties
 
 
 
-# Rest Service provider `http://localhost:8087`
+# Rest Service provider 
+Rest Server `http://localhost:8087`
 Actuator `http://localhost:8087/actuator` provides health,info,env,refresh
 
 Refresh data using  
