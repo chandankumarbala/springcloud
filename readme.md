@@ -20,6 +20,8 @@ http://localhost:8086/config/cloudprops-default.properties
 # Rest Service provider 
 Rest Server `http://localhost:8087`
 Actuator `http://localhost:8087/actuator` provides health,info,env,refresh
+`http://localhost:8087/actuator/info` show server details and exposed service url 
+
 
 Refresh data using  
 `curl -X POST \
